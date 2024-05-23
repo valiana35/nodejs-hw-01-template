@@ -1,1 +1,62 @@
-[]
+[
+  {
+    "name": "Susan Langosh",
+    "phone": "410.592.0055 x3653",
+    "email": "Tressa.Will58@hotmail.com",
+    "job": "Legacy Assurance Engineer"
+  },
+  {
+    "name": "Alejandro Effertz",
+    "phone": "890.905.7095 x51073",
+    "email": "Christ.Quitzon@yahoo.com",
+    "job": "Direct Brand Strategist"
+  },
+  {
+    "name": "Miss Claire Nitzsche",
+    "phone": "(577) 333-0678 x3395",
+    "email": "Erich2@gmail.com",
+    "job": "District Intranet Orchestrator"
+  },
+  {
+    "name": "Shannon Hyatt",
+    "phone": "1-430-606-0769 x5081",
+    "email": "Matilda.Reinger@gmail.com",
+    "job": "Central Communications Strategist"
+  },
+  {
+    "name": "Roberta Halvorson",
+    "phone": "(825) 296-2305 x54354",
+    "email": "August.Tromp@yahoo.com",
+    "job": "Human Accounts Producer"
+  },
+  {
+    "name": "Jake Kessler",
+    "phone": "690.674.4440",
+    "email": "Elena.Swaniawski10@gmail.com",
+    "job": "Dynamic Quality Officer"
+  },
+  {
+    "name": "Sandy Mraz",
+    "phone": "924-875-8059 x6912",
+    "email": "Ardith.Stokes@yahoo.com",
+    "job": "Regional Security Technician"
+  },
+  {
+    "name": "Dr. Hugo Weissnat Jr.",
+    "phone": "201-897-7649 x005",
+    "email": "Maggie_Runolfsdottir@hotmail.com",
+    "job": "District Intranet Analyst"
+  },
+  {
+    "name": "Mr. Spencer Johns",
+    "phone": "228.692.3702 x732",
+    "email": "Emmalee.Stark-Hoppe@hotmail.com",
+    "job": "Internal Group Orchestrator"
+  },
+  {
+    "name": "Henrietta Jenkins",
+    "phone": "(876) 382-7969",
+    "email": "Hailie.Torp84@hotmail.com",
+    "job": "Central Creative Agent"
+  }
+]

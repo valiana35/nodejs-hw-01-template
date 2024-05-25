@@ -4,11 +4,12 @@ import { createFakeContact } from '../utils/createFakeContact.js';
 
 const generateContacts = async (number) => {
   try {
-    const contacts = JSON.parse(await fs.readFile(PATH_DB, 'utf-8'));
-    for (let i = 0; i < number; i++) {
+    const data = await fs.readFile(PATH_DB, 'utf-8');
+    const contacts = JSON.parse(data);
+    for (let i = 0; i < number; i += 1) {
       contacts.push(createFakeContact());
     }
-    await fs.appendFile(PATH_DB, JSON.stringify(contacts, null, 2), 'utf-8');
+    await fs.writeFile(PATH_DB, JSON.stringify(contacts, null, 2));
   } catch (error) {
     console.log(error);
   }

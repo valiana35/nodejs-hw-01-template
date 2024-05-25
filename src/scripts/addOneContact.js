@@ -3,11 +3,16 @@ import fs from 'fs/promises';
 import { createFakeContact } from '../utils/createFakeContact.js';
 
 export const addOneContact = async () => {
-        const contacts = JSON.parse(await fs.readFile(PATH_DB, 'utf-8'));
-        const contact = createFakeContact();
-        contacts.push(contact);
-        await fs.appendFile(PATH_DB, JSON.stringify(contact, null, 2), 'utf-8');
-        console.log(contact);
+  try {
+    const data = await fs.readFile(PATH_DB, 'utf-8');
+    const contacts = JSON.parse(data);
+    const contact = createFakeContact();
+    contacts.push(contact);
+    await fs.writeFile(PATH_DB, JSON.stringify(contacts, null, 2));
+    console.log(contact);
+  } catch (error) {
+    console.log(error);
+  }
 };
 
 await addOneContact();
